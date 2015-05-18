@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/bash
 for name in $(cat users.txt)
 	do useradd $name
 	echo "123456"|echo "123456" |passwd $name
